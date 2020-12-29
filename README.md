@@ -56,27 +56,19 @@ Hasil yang didapat adalah <b>Netmask /21</b> untuk subnet besar topologi diatas.
 
 #### Konfigurasi Tiap UML
 1. Pertama, membuat file `topologi.sh`.
-![NanoTopologi](https://user-images.githubusercontent.com/61286109/102784082-73cbeb80-43ce-11eb-89e5-5bfb656220a9.PNG) <br>
+![picture](https://cdn.discordapp.com/attachments/691272824765284362/793430599939129364/2.jpg) <br>
 2. Pada semua UML Router, ke file `nano /etc/sysctl.conf` kemudian uncomment `net.ipv4.ip_forward=1` dan aktifkan dengan syntax `sysctl -p`. <br>
 3. Lakukan setting interface pada semua UML di `nano /etc/network/interfaces` dan di restart dengan syntax `service networking restart`. <br>
 - ROUTER SURABAYA <br>
-![iface surabaya](https://user-images.githubusercontent.com/61286109/102900032-55352580-449e-11eb-8844-8224bb6b9db2.PNG) <br>
 - ROUTER KEDIRI <br>
-![iface kediri](https://user-images.githubusercontent.com/61286109/102899925-3767c080-449e-11eb-8854-e8714623d1c4.PNG) <br>
 - ROUTER BATU <br>
-![iface batu](https://user-images.githubusercontent.com/61286109/102899633-d0e2a280-449d-11eb-95ed-e3ea0a41ca32.PNG) <br>
 - SERVER MADIUN <br>
-![iface madiun](https://user-images.githubusercontent.com/61286109/102902989-4badbc80-44a2-11eb-972d-58845f439e48.PNG) <br>
 - SERVER PROBOLINGGO <br>
-![iface probolinggo](https://user-images.githubusercontent.com/61286109/102902985-494b6280-44a2-11eb-9da6-de197f677452.PNG) <br>
 - SERVER MALANG <br>
-![iface malang](https://user-images.githubusercontent.com/61286109/102900739-4ef37900-449f-11eb-9809-13a3a6b25ac0.PNG) <br>
 - SERVER MOJOKERTO <br>
-![iface mojokerto](https://user-images.githubusercontent.com/61286109/102900727-4bf88880-449f-11eb-8bfb-4095fa168432.PNG) <br>
 - KLIEN GRESIK <br>
-![iface gresik](https://user-images.githubusercontent.com/61286109/102826852-0cd12580-4414-11eb-8710-1234c41f2c70.PNG) <br>
 - KLIEN SIDOARJO <br>
-![iface sidoarjo](https://user-images.githubusercontent.com/61286109/102826859-0fcc1600-4414-11eb-9b38-f57858a26aa6.PNG) <br>
+ ![picture](https://cdn.discordapp.com/attachments/691272824765284362/793430579609206794/1.png) <br>
 4. Lakukan Routing terhadap Router Surabaya dengan membuat file dengan `nano routing.sh` untuk memudahkan kita karena pada saat setiap UML di restart maka routenya ke reset. Untuk menjalankannya ketik syntax `source routing.sh`.
 - ROUTING SURABAYA <br>
 ![routing surabaya](https://user-images.githubusercontent.com/61286109/102912675-47889b80-44b0-11eb-9f89-5b2f4a1d4440.PNG) <br>
