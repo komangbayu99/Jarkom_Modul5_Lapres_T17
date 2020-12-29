@@ -9,7 +9,7 @@ Kelompok T17
 
 ## SOAL
 <b>(A)</b> Tugas pertama kalian yaitu membuat topologi jaringan sesuai dengan rancangan yang diberikan Bibah seperti dibawah ini : <br>
-![Topologi Modul 5](https://user-images.githubusercontent.com/61286109/102757895-8d583d80-43a4-11eb-971a-50f803ca820a.PNG) <br>
+![Topologi Modul 5] ![picture](https://cdn.discordapp.com/attachments/691272824765284362/793460423411892276/modul_5_2.PNG) <br>
 Keterangan : 
 - <b>SURABAYA</b> diberikan <b>IP TUNTAP</b>
 - <b>MALANG</b> merupakan <b>DNS Server</b> diberikan <b>IP DMZ</b>
@@ -46,12 +46,12 @@ Bibah berterima kasih kepada kalian karena telah mau membantunya. Bibah juga men
 ### Menggunakan Metode CIDR
 #### Subnetting (Pembagian IP) <br>
 - Menentukan subnet yang ada dalam topologi dan lakukan labelling netmask terhadap masing-masing subnet kemudian menggabungkan subnet-subnet sampai menjadi subnet besar. <br>
-![SubnetTopologi Modul 5](https://user-images.githubusercontent.com/61286109/102895716-c7eed280-4497-11eb-9344-008e4d53366b.png) <br>
+![picture](https://cdn.discordapp.com/attachments/691272824765284362/793460356957470730/modul_5_3.PNG) <br>
 Hasil yang didapat adalah <b>Netmask /21</b> untuk subnet besar topologi diatas.
 - Pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
-![TreeCIDR Modul5](https://user-images.githubusercontent.com/61286109/102901541-58311580-44a0-11eb-9e8e-62e186f6eda4.png) <br>
+![picture](https://cdn.discordapp.com/attachments/691272824765284362/793457596270772234/modul_5.PNG)
 - Dari pohon tersebut akan mendapat pembagian IP sebagai berikut. <br>
-![Pembagian IP](https://user-images.githubusercontent.com/61286109/102895979-3fbcfd00-4498-11eb-8706-a60ed977048d.PNG) <br>
+![picture](https://cdn.discordapp.com/attachments/691272824765284362/793457666574909450/modul_5_1.PNG)
 
 #### Konfigurasi Tiap UML
 1. Pertama, membuat file `topologi.sh`.
