@@ -1,8 +1,7 @@
 # Jarkom_Modul5_Lapres_T17 
 
 <b> Laporan Resmi Praktikum Jaringan Komputer </b> <br>
-Modul 5 - FIREWALL <br>
-Kelompok T06
+Kelompok T17
 1. Millenia Ulwan Z                (05311840000020)
 2. Bayu Trianayasa                 (05311840000038)
 
